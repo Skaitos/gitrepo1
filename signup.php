@@ -98,7 +98,7 @@ session_start();
                 <div style="font-size:20px; margin: 10px; color: white;">Signup</div>
                 <input id="text" type="text" name="user_name" placeholder = "Username"><br><br>
                 <input id="pass" type="password" name="password" placeholder = "Password"><br><br>
-                <input id="confirm_pass" type="password" name="confirm_pass" placeholder = "Confirm Password" onkeyup="validate_password()"><br><br>
+                <input id="confirm_pass" type="password" name="confirm_pass" placeholder = "Confirm Password buoyyyy" onkeyup="validate_password()"><br><br>
                 <input id="button" type="submit" value="Signup" onclick=""> <br><br>
                 <a href="login.php">Click here to Login</a><br><br>
                 <span id="wrong_pass_alert"></span>
