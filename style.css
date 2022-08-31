@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+
+
+html { 
+  background: url(/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+body {
+  font-family: poppins, sans-serif;  
+  margin: 0px;
+}
+
+nav {
+  background-color: #3a24f0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section#header {
+  
+  color: #40081a;
+  min-height: 30vh;
+}
+
+section#section1 {
+  
+  color: #40081a;
+}
+
+section#section2 {
+  
+  color: #40081a;
+}
+
+section#section3 {
+  
+  color: #40081a;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+}

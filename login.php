@@ -59,12 +59,20 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 <body>
 
     <style type="text/css">
+        html { 
+            background: url(/images/background.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            }
+        
         #text{
 
             height: 25px;
             border-radius: 5px;
             padding: 4px;
-            width: 90%;
+            width: 100%;
         }
 
         #button{
@@ -73,28 +81,34 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
             color: white;
             background-color: lightblue;
             border: none;
+            display:block;
+            margin: 0 auto;
         }
 
         #box{
 
-            background-color: gray;
+            background-color:unset;  
             margin: auto;
             width: 300px;
             padding: 20px;
+            align-content:center;
             
         }
+
+        
         </style>
 
         <div id="box">
 
             <form method="post">
-                <div style="font-size:20px; margin: 10px; color: white;">Login</div>
+                <div style="font-size:20px; margin: 10px; color: white;text-align: center;">Login</div>
                 <input id="text" type="text" name="user_name"  placeholder = "Username"><br><br>
                 <input id="text" type="password" name="password"  placeholder = "Password"><br><br>
                 
                 <input id="button" type="submit" value="Login"> <br><br>
-
-                <a href="signup.php">Click here to Signup</a><br><br>
+                <p align="center">
+                    <a  href="signup.php">Click here to Signup</a>
+                </p>
             </form>
         </div>
 </body>
